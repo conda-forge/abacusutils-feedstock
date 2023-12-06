@@ -34,6 +34,8 @@ requirements:
     - h5py
     - pyyaml
     - corrfunc >=2
+    - asdf-astropy
+    - msgpack-python
 
 test:
   imports:
