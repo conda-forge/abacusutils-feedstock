@@ -1,5 +1,5 @@
 {% set name = "abacusutils" %}
-{% set version = "1.3.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/abacusutils-{{ version }}.tar.gz
-  sha256: c80e44d9dca7a817fdb559cb062a97f8645a67b336feb6c1fe2de905b04ec91e
+  sha256: 57e3e511e4736256c5d0ff535ef0abbf4d05859fe1f69df6d98ffe66f478b933
 
 build:
   entry_points:
