@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools >=61
     - setuptools-scm >=6.2
     - pip
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - numpy >=1.16
     - python-blosc >=1.9.2
     - astropy-base >=4.0.0
@@ -45,6 +45,7 @@ test:
     - pipe_asdf --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/abacusorg/abacusutils
