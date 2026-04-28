@@ -27,7 +27,7 @@ requirements:
     - setuptools-scm >=6.2
     - pip
   run:
-    - astropy >=4.0.0
+    - astropy-base >=4.0.0
     - blosc >=1.9.2
     - python >=${{ python_min }}
     - numpy >=1.16
